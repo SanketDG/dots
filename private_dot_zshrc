@@ -100,7 +100,7 @@ setopt no_auto_menu  # require an extra TAB press to open the completion menu
 alias vi=vim
 
 # pyenv
-export PATH="/home/sanketdg/.pyenv/bin:$PATH"
+export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
@@ -124,7 +124,7 @@ source ~/.functions/rnote.zsh
 eval "$(lua ~/dots/z.lua/z.lua --init zsh enhanced once fzf)"
 
 # General aliases
-source ~/dots/aliases/general.zsh
+source ~/.aliases/general.zsh
 
 # Use keychain for SSH key caching
 eval $(keychain --eval --quiet fynd_gitlab)
