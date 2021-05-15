@@ -128,3 +128,6 @@ source ~/.aliases/general.zsh
 
 # Use keychain for SSH key caching
 eval $(keychain --eval --quiet fynd_gitlab)
+
+source $HOME/dots/zsh-histdb/sqlite-history.zsh
+autoload -Uz add-zsh-hook
