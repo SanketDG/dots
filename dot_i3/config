@@ -55,6 +55,7 @@ bindsym $mod+Ctrl+m exec st -e 'alsamixer'
 # bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
 
 # Start Applications
+bindsym $mod+F2 exec pavucontrol
 bindsym $mod+F3 exec pcmanfm
 # bindsym $mod+F3 exec ranger
 #bindsym $mod+Shift+F3 exec pcmanfm_pkexec
